@@ -1,0 +1,90 @@
+# ============================================
+# 🟩 ARCHIVOS Y CARPETAS DE NODE.JS
+# ============================================
+
+# Dependencias
+node_modules/
+
+# Logs y archivos temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de compilación
+dist/
+build/
+.cache/
+.tmp/
+
+# ============================================
+# 🟦 EDITORES Y SISTEMAS OPERATIVOS
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# 🟨 GIT Y CONFIGURACIÓN
+# ============================================
+
+# Archivos de Git temporales
+*.orig
+*.swp
+*.swo
+
+# ============================================
+# 🟥 ARCHIVOS DE PROYECTOS Y CONFIG
+# ============================================
+
+# Archivos generados o sensibles
+database/coneccion.js
+supabase/config.js
+*.sqlite
+*.db
+*.db3
+
+# Archivos de cobertura de tests
+coverage/
+.nyc_output/
+
+# ============================================
+# 🟪 DEPLOY O PRODUCCIÓN
+# ============================================
+
+# Archivos del servidor local
+logs/
+pids/
+*.pid
+*.seed
+
+# Archivos temporales de pruebas
+test-results/
+temp/
+tmp/
+
+# ============================================
+# 🟦 IDEs y Editores
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.history/
+.idea/
+*.code-workspace

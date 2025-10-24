@@ -1,0 +1,29 @@
+POST /selecciones HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "pais": "FRANCIA",
+    "confederacion": "UEFA",
+    "campeonatos_mundiales": 3,
+    "bandera_url": "https://img.freepik.com/vector-premium/diseno-bandera-francia-ondeando-bandera-francesa-hecha-saten-o-tela-seda-ilustracion-vectorial_191567-99.jpg"
+}
+
+
+
+###### jugadores
+
+
+POST /jugadores HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "nombre": "Kilian Mbape",
+    "edad": 23,
+    "equipo_id": 3,
+    "url_imagen": "https://i.pinimg.com/originals/48/98/75/489875d42724428c9bfb237eb7dc3591.png",
+    "dribling": 89,
+    "velocidad": 92,
+    "regate": 88
+}
